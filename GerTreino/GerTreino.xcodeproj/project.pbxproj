@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E49C13127FB210000C2D706 /* GerTreinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C13027FB210000C2D706 /* GerTreinoApp.swift */; };
+		5E49C13527FB210200C2D706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E49C13427FB210200C2D706 /* Assets.xcassets */; };
+		5E49C13827FB210200C2D706 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E49C13727FB210200C2D706 /* Preview Assets.xcassets */; };
+		5E49C14727FB21FF00C2D706 /* SortPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C14127FB21FF00C2D706 /* SortPickerView.swift */; };
+		5E49C14827FB21FF00C2D706 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C14227FB21FF00C2D706 /* TaskListView.swift */; };
+		5E49C14927FB21FF00C2D706 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C14327FB21FF00C2D706 /* AddTaskView.swift */; };
+		5E49C14A27FB21FF00C2D706 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C14427FB21FF00C2D706 /* TaskView.swift */; };
+		5E49C14B27FB21FF00C2D706 /* TaskSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C14527FB21FF00C2D706 /* TaskSearchView.swift */; };
+		5E49C14C27FB21FF00C2D706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C14627FB21FF00C2D706 /* ContentView.swift */; };
+		5E49C14F27FB233D00C2D706 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C14E27FB233D00C2D706 /* Task.swift */; };
+		5E49C15227FB236B00C2D706 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C15127FB236B00C2D706 /* TaskViewModel.swift */; };
+		5E49C15527FB237900C2D706 /* MainViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C15427FB237800C2D706 /* MainViewModifier.swift */; };
+		5E49C15827FB238900C2D706 /* KeyBoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49C15727FB238900C2D706 /* KeyBoardExtension.swift */; };
+		5E49C15A27FB3C6A00C2D706 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E49C15927FB3C6A00C2D706 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E49C12D27FB210000C2D706 /* GerTreino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GerTreino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E49C13027FB210000C2D706 /* GerTreinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerTreinoApp.swift; sourceTree = "<group>"; };
+		5E49C13427FB210200C2D706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E49C13727FB210200C2D706 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E49C14127FB21FF00C2D706 /* SortPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortPickerView.swift; sourceTree = "<group>"; };
+		5E49C14227FB21FF00C2D706 /* TaskListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		5E49C14327FB21FF00C2D706 /* AddTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		5E49C14427FB21FF00C2D706 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		5E49C14527FB21FF00C2D706 /* TaskSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskSearchView.swift; sourceTree = "<group>"; };
+		5E49C14627FB21FF00C2D706 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E49C14E27FB233D00C2D706 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		5E49C15127FB236B00C2D706 /* TaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		5E49C15427FB237800C2D706 /* MainViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModifier.swift; sourceTree = "<group>"; };
+		5E49C15727FB238900C2D706 /* KeyBoardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoardExtension.swift; sourceTree = "<group>"; };
+		5E49C15927FB3C6A00C2D706 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E49C12A27FB210000C2D706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E49C12427FB210000C2D706 = {
+			isa = PBXGroup;
+			children = (
+				5E49C12F27FB210000C2D706 /* GerTreino */,
+				5E49C12E27FB210000C2D706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E49C12E27FB210000C2D706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E49C12D27FB210000C2D706 /* GerTreino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E49C12F27FB210000C2D706 /* GerTreino */ = {
+			isa = PBXGroup;
+			children = (
+				5E49C14D27FB233D00C2D706 /* Models */,
+				5E49C14027FB21FF00C2D706 /* Views */,
+				5E49C13027FB210000C2D706 /* GerTreinoApp.swift */,
+				5E49C15027FB236B00C2D706 /* ViewModels */,
+				5E49C13427FB210200C2D706 /* Assets.xcassets */,
+				5E49C15927FB3C6A00C2D706 /* GoogleService-Info.plist */,
+				5E49C15327FB237800C2D706 /* CustomModifiers */,
+				5E49C13627FB210200C2D706 /* Preview Content */,
+			);
+			path = GerTreino;
+			sourceTree = "<group>";
+		};
+		5E49C13627FB210200C2D706 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E49C13727FB210200C2D706 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E49C14027FB21FF00C2D706 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E49C14127FB21FF00C2D706 /* SortPickerView.swift */,
+				5E49C14227FB21FF00C2D706 /* TaskListView.swift */,
+				5E49C14327FB21FF00C2D706 /* AddTaskView.swift */,
+				5E49C14427FB21FF00C2D706 /* TaskView.swift */,
+				5E49C14527FB21FF00C2D706 /* TaskSearchView.swift */,
+				5E49C14627FB21FF00C2D706 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E49C14D27FB233D00C2D706 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E49C14E27FB233D00C2D706 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E49C15027FB236B00C2D706 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5E49C15127FB236B00C2D706 /* TaskViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5E49C15327FB237800C2D706 /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5E49C15627FB238900C2D706 /* Extensions */,
+				5E49C15427FB237800C2D706 /* MainViewModifier.swift */,
+			);
+			path = CustomModifiers;
+			sourceTree = "<group>";
+		};
+		5E49C15627FB238900C2D706 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E49C15727FB238900C2D706 /* KeyBoardExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E49C12C27FB210000C2D706 /* GerTreino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E49C13B27FB210200C2D706 /* Build configuration list for PBXNativeTarget "GerTreino" */;
+			buildPhases = (
+				5E49C12927FB210000C2D706 /* Sources */,
+				5E49C12A27FB210000C2D706 /* Frameworks */,
+				5E49C12B27FB210000C2D706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GerTreino;
+			productName = GerTreino;
+			productReference = 5E49C12D27FB210000C2D706 /* GerTreino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E49C12527FB210000C2D706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5E49C12C27FB210000C2D706 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 5E49C12827FB210000C2D706 /* Build configuration list for PBXProject "GerTreino" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E49C12427FB210000C2D706;
+			productRefGroup = 5E49C12E27FB210000C2D706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E49C12C27FB210000C2D706 /* GerTreino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E49C12B27FB210000C2D706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E49C13827FB210200C2D706 /* Preview Assets.xcassets in Resources */,
+				5E49C13527FB210200C2D706 /* Assets.xcassets in Resources */,
+				5E49C15A27FB3C6A00C2D706 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E49C12927FB210000C2D706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E49C14F27FB233D00C2D706 /* Task.swift in Sources */,
+				5E49C15827FB238900C2D706 /* KeyBoardExtension.swift in Sources */,
+				5E49C14727FB21FF00C2D706 /* SortPickerView.swift in Sources */,
+				5E49C14A27FB21FF00C2D706 /* TaskView.swift in Sources */,
+				5E49C14B27FB21FF00C2D706 /* TaskSearchView.swift in Sources */,
+				5E49C14827FB21FF00C2D706 /* TaskListView.swift in Sources */,
+				5E49C14C27FB21FF00C2D706 /* ContentView.swift in Sources */,
+				5E49C15527FB237900C2D706 /* MainViewModifier.swift in Sources */,
+				5E49C14927FB21FF00C2D706 /* AddTaskView.swift in Sources */,
+				5E49C15227FB236B00C2D706 /* TaskViewModel.swift in Sources */,
+				5E49C13127FB210000C2D706 /* GerTreinoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E49C13927FB210200C2D706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E49C13A27FB210200C2D706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E49C13C27FB210200C2D706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GerTreino/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AmandaPaiva.GerTreino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E49C13D27FB210200C2D706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GerTreino/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AmandaPaiva.GerTreino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E49C12827FB210000C2D706 /* Build configuration list for PBXProject "GerTreino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E49C13927FB210200C2D706 /* Debug */,
+				5E49C13A27FB210200C2D706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E49C13B27FB210200C2D706 /* Build configuration list for PBXNativeTarget "GerTreino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E49C13C27FB210200C2D706 /* Debug */,
+				5E49C13D27FB210200C2D706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E49C12527FB210000C2D706 /* Project object */;
+}
