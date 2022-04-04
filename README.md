@@ -1,4 +1,4 @@
-# Gertreino
+# GerTreino
 
 Projeto criado para teste.
 Neste app é possivel criar, editar, visualizar, pesquisar, ordenar ou excluir treinos de atividade física. 
