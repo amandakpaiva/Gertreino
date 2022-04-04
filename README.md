@@ -23,3 +23,5 @@ Basta clicar no treino selecionado e usar o botao vermelho.
 Deletando 
 
 Para deletar um exercício, basta ir na tela de exercícios, arrastar o exercício que você deseja remover para a esquerda e clicar no botão "delete".
+
+O Projeto esta tambem no firebase.
